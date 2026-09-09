@@ -1,0 +1,22 @@
+.calculator {
+  background-color: aqua;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 400px;
+  max-height: 600px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 100px;
+}
+button {
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
