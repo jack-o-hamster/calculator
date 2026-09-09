@@ -30,12 +30,9 @@ calculator_box.addEventListener("click", function (event) {
       }
       a = calculator_text.textContent.slice(0, -1);
       calculator_text.textContent = "";
-      alert(a);
-      alert(op);
     }
     if (calculator_text.textContent.includes("=")) {
       b = calculator_text.textContent.slice(0, -1);
-      alert(b);
       if (op === "+") {
         calculator_text.textContent = +a + +b;
       } else if (op === "*") {
